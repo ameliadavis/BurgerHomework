@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +16,10 @@
   },
   "devDependencies": {
     "handlebars-helper-css": "^0.1.0"
+  },
+  "engines": {
+    "node": "12.12.0"
   }
 }
+
+mysql://b20964a18be87e:66d326c0@us-cdbr-iron-east-01.cleardb.net/heroku_11fc928aa2b9f2c?reconnect=true
